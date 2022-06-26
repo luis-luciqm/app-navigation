@@ -1,11 +1,21 @@
 import React from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 
-export default function Superior(){
+export default function Superior({navigation}){
+
+    const object_cursos = {
+        name: "ADS"
+    };
+
+    // function navigationDetails(){
+    //     navigation.navigate('details', {curso: "sssj"})
+    // }
+
     return (
         <View style={styles.container}>
             <TouchableOpacity   
                 style={styles.button}
+                onPress={ () => navigation.navigate('details', {object_cursos})}
             >
                 <Text>Análise e Desenvolvimento de Sistemas</Text>
             </TouchableOpacity>

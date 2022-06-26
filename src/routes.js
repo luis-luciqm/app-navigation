@@ -4,6 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import Superior from './pages/Superior'
 import Tecnico from './pages/Técnico'
+import { Details } from './pages/Details'
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const Tab = createBottomTabNavigator();
@@ -30,6 +31,7 @@ export default function Routes(){
         >
             <Tab.Screen name="Superior" component={Superior} />
             <Tab.Screen name="Tecnico" component={Tecnico} />
+            <Tab.Screen name='details' curso="aaaaa" component={Details} />
         </Tab.Navigator>
     );
 }
