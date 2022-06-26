@@ -6,7 +6,7 @@ export default function Superior({navigation}){
     const object_cursos = [
         {
             name: 'Análise e Desenvolvimento de Sistemas',
-            description: 'Con nota máxima no ENADE, o curso de Análise e Desenvolvimento de Sistemas demonstra cada dia ser o melhor curso do IF',
+            description: 'Com nota máxima no ENADE, o curso de Análise e Desenvolvimento de Sistemas demonstra cada dia ser o melhor curso do IF',
         },
         {
             name: 'Agroindustria',
