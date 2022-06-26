@@ -1,8 +1,10 @@
-import React from 'react-native';
-import { StyleSheet, View, Text } from 'react-native-web';
+import React from 'react';
+import { StyleSheet, View, Text } from 'react-native';
 
-export default function Settings(){
-    <View>
-        <Text>Sou o Settings</Text>
-    </View>
+export default function Teste(){
+    return (
+        <View>
+            <Text>Sou o Teste</Text>
+        </View>
+    );
 }
