@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
-export default function Teste(){
+export default function Superior(){
     return (
         <View>
-            <Text>Sou o Teste</Text>
+            <Text>Oi sou o Superior</Text>
         </View>
     );
 }

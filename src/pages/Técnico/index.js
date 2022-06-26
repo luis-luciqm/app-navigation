@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
-export default function Home(){
+export default function Tecnico(){
     return (
         <View>
-            <Text>Oi som</Text>
+            <Text>Sou o Tecnico</Text>
         </View>
     );
 }
