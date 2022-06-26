@@ -2,6 +2,9 @@ import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
 export function Details(props){
+
+    console.log('\n\n\n\n\n' + props.route)
+
     return (
         <View style={styles.container}>
             <Text style={styles.text}>Seja muito bem vindo ao curso de {props.route.params.name}</Text>

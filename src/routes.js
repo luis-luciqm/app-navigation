@@ -11,6 +11,7 @@ const Tab = createBottomTabNavigator();
 
 export default function Routes(){
     return (
+        <>
         <Tab.Navigator
             screenOptions={({ route }) => ({
                 tabBarIcon: ({ focused, color, size }) => {
@@ -33,5 +34,6 @@ export default function Routes(){
             <Tab.Screen name="Tecnico" component={Tecnico} />
             <Tab.Screen name='details' curso="aaaaa" component={Details} />
         </Tab.Navigator>
+        </>
     );
 }
